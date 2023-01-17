@@ -34,6 +34,7 @@ function titleClickHandler(event) {
 }
 
 const links = document.querySelectorAll(".titles a");
+<<<<<<< HEAD
 
 for (let link of links) {
   link.addEventListener("click", titleClickHandler);
@@ -69,3 +70,9 @@ generateTitleLinks();
 
 
 
+=======
+
+for (let link of links) {
+  link.addEventListener("click", titleClickHandler);
+}
+>>>>>>> 04c09de7a43bc7a7cba526a17c2034cd082d78aa
